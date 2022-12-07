@@ -1,5 +1,3 @@
-import "./Footer.css"
-
 const Footer = () => {
     return (
         <footer className="bg-dark text-center text-white">

@@ -1,13 +1,18 @@
+import { Link } from 'react-router-dom';
 import './CartWidget.css';
 
 const CartWidget = () => {
+  
     return (
-        <ul className="navbar-nav  align-items-center cart-widget">
-        <li className="nav-item">
-            <i className="fa-solid fa-cart-shopping cart-widget-icon"></i>
-        </li>
-        <p>0</p>
-        </ul>
+        <>
+            <Link to={"/cart"}>
+            <button className="btn btn-secondary cartWidget d-flex align-items-baseline">
+                <i className="fa-solid fa-cart-shopping cartWidget__icon"></i>
+                <span className="cantCarrito">0</span>
+            </button>
+            </Link>
+                
+        </>
     );
 }
 

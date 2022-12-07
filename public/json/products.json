@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "idCategory": "skates",
+        "brand": "Element",
+        "model": "Skate Maple",
+        "price": 29900,
+        "stock": 20,
+        "img": "skate-element.jpg"
+    },
+    {
+        "id": 2,
+        "idCategory": "skates",
+        "brand": "Element",
+        "model": "Seal 8",
+        "price": 34900,
+        "stock": 8,
+        "img": "skate-element-2.jpg"
+    },
+    {
+        "id": 3,
+        "idCategory": "skates",
+        "brand": "Powell Peralta",
+        "model": "Winged Ripped",
+        "price": 44000,
+        "stock": 12,
+        "img": "skate-powell.jpg"
+    },
+    {
+        "id": 4,
+        "idCategory": "skates",
+        "brand": "Powell Peralta",
+        "model": "Skull",
+        "price": 44000,
+        "stock": 40,
+        "img": "skate-powell-2.jpg"
+    },
+    {
+        "id": 5,
+        "idCategory": "skates",
+        "brand": "Santa Cruz",
+        "model": "Classic Dot Full 8",
+        "price": 55000,
+        "stock": 33,
+        "img": "skate-santa-cruz-2.jpg"
+    },
+    {
+        "id": 6,
+        "idCategory": "skates",
+        "brand": "Santa Cruz",
+        "model": "Screaming Hand Full",
+        "price": 55000,
+        "stock": 33,
+        "img": "skate-santa-cruz.jpg"
+    },
+    {
+        "id": 7,
+        "idCategory": "gorras",
+        "brand": "DC",
+        "model": "Black & Grey",
+        "price": 5400,
+        "stock": 50,
+        "img": "gorra-dc-1.jpg"
+    },
+    {
+        "id": 8,
+        "idCategory": "gorras",
+        "brand": "DC",
+        "model": "DC Camouflage",
+        "price": 6200,
+        "stock": 20,
+        "img": "gorra-dc-2.jpg"
+    },
+    {
+        "id": 9,
+        "idCategory": "gorras",
+        "brand": "Independent",
+        "model": "Independent White",
+        "price": 9800,
+        "stock": 5,
+        "img": "gorra-independent.jpg"
+    },
+    {
+        "id": 10,
+        "idCategory": "gorras",
+        "brand": "Volcom",
+        "model": "Quarter Blue",
+        "price": 7500,
+        "stock": 10,
+        "img": "gorra-volcom.jpg"
+    },
+    {
+        "id": 11,
+        "idCategory": "zapatillas",
+        "brand": "DC",
+        "model": "Court Graffik SS",
+        "price": 45000,
+        "stock": 22,
+        "img": "zapatillas-dc.jpg"
+    },
+    {
+        "id": 12,
+        "idCategory": "zapatillas",
+        "brand": "Vans",
+        "model": "Vans SK8 Hi",
+        "price": 45000,
+        "stock": 22,
+        "img": "zapatillas-vans.jpg"
+    }
+]

@@ -1,0 +1,45 @@
+html, body, #root {
+    height: 100%;
+  }
+
+#root {
+    display: flex;
+    flex-direction: column;
+}
+
+footer { 
+    margin-top: auto;
+}
+
+
+.cardProducto {
+    width: 16rem;
+    margin: 2rem;
+    padding: 0;
+}
+
+.cardBody {
+    text-align: center;
+    color: white;
+}   
+
+img {
+    width: 100%;
+}
+
+.nav-item {
+    margin: 10px;
+}
+
+
+.itemDetail {
+    max-width: 540px;
+    margin: 4rem auto;
+    padding: 0;
+    text-align: center;
+}
+
+.card-title{
+    color: #ffc354;
+    font-weight: bold;
+}

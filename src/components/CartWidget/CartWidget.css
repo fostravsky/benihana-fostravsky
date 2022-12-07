@@ -1,8 +1,9 @@
-.cart-widget {
+.cartWidget {
     margin-right: 1rem;
 }
 
-.cart-widget-icon {
-    font-size: 1.5rem;
-    margin-right: 1rem;
+.cartWidget__icon {
+    font-size: 1rem;
+    padding-right: 10px;
 }
+
