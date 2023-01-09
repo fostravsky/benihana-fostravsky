@@ -1,7 +1,7 @@
 import {useState, useEffect} from 'react';
 import {useParams} from 'react-router-dom';
 import ItemList from '../ItemList/ItemList.jsx';
-import {queryDB} from '../../assets/functions.js';
+import {getProducts} from '../../assets/firebase';
 
 const ItemListContainer = () => {
 
@@ -10,24 +10,24 @@ const ItemListContainer = () => {
 
     useEffect(() => {
             if(category) {
-                queryDB('../json/products.json').then(products => {
+                getProducts().then(products => {
                     const productsList= products.filter(prod => prod.stock > 0).filter(prod => prod.idCategory === category)
                     const cardProducts = ItemList({productsList})
                     setProducts(cardProducts)
                 })
             } else {
-                queryDB('./json/products.json').then(products => {
+                getProducts().then(products => {
                     const productsList= products.filter(prod => prod.stock > 0)
                     const cardProducts = ItemList({productsList})
                     setProducts(cardProducts)
                 })
             }
             
-        
+           
     },[category]);
     
     return (
-        <div className= 'row m-0 d-flex align-items-center justify-content-center' >
+        <div className= "row m-0 d-flex align-items-center justify-content-center">
             {products}
         </div>
        

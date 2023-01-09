@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 const Item = ({prod}) => {
     return (
-        <div className='card cardProducto border-light'>
-                        <img src={`../img/${prod.img}`}className="card-img-top card-img" alt="..." />
+        <div className='card cardProducto border-light  bg-dark'>
+                        <img src={prod.img}className="card-img-top card-img" alt="..." />
                         <div className='card-body cardBody'>
                             <h5 className="card-title">{prod.model}</h5>
                             <p className="card-text">{prod.brand}</p>

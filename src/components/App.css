@@ -2,6 +2,7 @@ html, body, #root {
     height: 100%;
   }
 
+
 #root {
     display: flex;
     flex-direction: column;
@@ -37,9 +38,49 @@ img {
     margin: 4rem auto;
     padding: 0;
     text-align: center;
+    color: white;
+}
+
+
+.cart {
+    margin: 2rem auto;
+    padding: 0;
+    text-align: center;
+
+
+}
+
+.cartDetail {
+    padding: 1rem;
+    border: 2px solid;
+    background-color: black;
+    color: white;
 }
 
 .card-title{
     color: #ffc354;
     font-weight: bold;
+}
+
+
+.darkMode {
+    background-color:black;
+    color:white;
+}
+
+.errorMsg{
+    color: red;
+}
+
+.btnCart{
+    min-width: 12rem;
+}
+
+.btnFinish{
+    margin: 1rem 8rem;
+}
+
+.form{
+    min-width: 25rem;
+    margin: 2rem auto;
 }

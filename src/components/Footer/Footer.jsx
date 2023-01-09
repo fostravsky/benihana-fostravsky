@@ -1,16 +1,21 @@
+import { useDarkModeContext } from '../../context/DarkModeContext';
+
 const Footer = () => {
+
+    const {darkMode} = useDarkModeContext()
+
     return (
-        <footer className="bg-dark text-center text-white">
+        <footer className={`bg-primary text-center text-white ${darkMode ? 'bg-dark' : 'bg-primary'}`}>
             <div className="container p-2 pb-0">
             <section>
-                <a className="btn btn-outline-light btn-floating m-1" href="#" role="button"><i className="fab fa-facebook-f" /></a>
-                <a className="btn btn-outline-light btn-floating m-1" href="#" role="button"><i className="fab fa-twitter" /></a>
-                <a className="btn btn-outline-light btn-floating m-1" href="#" role="button"><i className="fab fa-instagram" /></a>
+                <button className="btn btn-outline-light btn-floating m-1"><i className="fab fa-facebook-f" /></button>
+                <button className="btn btn-outline-light btn-floating m-1"><i className="fab fa-twitter" /></button>
+                <button className="btn btn-outline-light btn-floating m-1"><i className="fab fa-instagram" /></button>
             </section>
             </div>
             <div className="text-center p-2" >
-            © 2022 Copyright:
-            <a className="text-white" href="#">Benihana Skate Store</a>
+           
+            <p> © 2022 Copyright: Benihana Skate Store</p>
             </div>
         </footer>
     );

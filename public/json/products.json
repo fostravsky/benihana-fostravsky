@@ -6,7 +6,7 @@
         "model": "Skate Maple",
         "price": 29900,
         "stock": 20,
-        "img": "skate-element.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/benihana-skate-store.appspot.com/o/skate-element.jpg?alt=media&token=25a9ae5c-bece-4a4a-bac1-de1d55286942"
     },
     {
         "id": 2,
@@ -15,7 +15,7 @@
         "model": "Seal 8",
         "price": 34900,
         "stock": 8,
-        "img": "skate-element-2.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/benihana-skate-store.appspot.com/o/skate-element-2.jpg?alt=media&token=2911c978-bbc1-4626-a1f8-2fa6268731bf"
     },
     {
         "id": 3,
@@ -24,7 +24,7 @@
         "model": "Winged Ripped",
         "price": 44000,
         "stock": 12,
-        "img": "skate-powell.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/benihana-skate-store.appspot.com/o/skate-powell.jpg?alt=media&token=6a45aa69-bda0-493e-9364-33beeadc29d9"
     },
     {
         "id": 4,
@@ -33,7 +33,7 @@
         "model": "Skull",
         "price": 44000,
         "stock": 40,
-        "img": "skate-powell-2.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/benihana-skate-store.appspot.com/o/skate-powell-2.jpg?alt=media&token=7a7ea503-2896-4d6c-ab29-d100bd2a03e9"
     },
     {
         "id": 5,
@@ -42,7 +42,7 @@
         "model": "Classic Dot Full 8",
         "price": 55000,
         "stock": 33,
-        "img": "skate-santa-cruz-2.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/benihana-skate-store.appspot.com/o/skate-santa-cruz-2.jpg?alt=media&token=cca6d9b1-e25c-406d-933d-b9e6913a005a"
     },
     {
         "id": 6,
@@ -51,7 +51,7 @@
         "model": "Screaming Hand Full",
         "price": 55000,
         "stock": 33,
-        "img": "skate-santa-cruz.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/benihana-skate-store.appspot.com/o/skate-santa-cruz.jpg?alt=media&token=54f55f24-1ca6-4231-aa07-e11e6605b3ce"
     },
     {
         "id": 7,
@@ -60,7 +60,7 @@
         "model": "Black & Grey",
         "price": 5400,
         "stock": 50,
-        "img": "gorra-dc-1.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/benihana-skate-store.appspot.com/o/gorra-dc-1.jpg?alt=media&token=8a9756ab-de97-416d-8fec-f8b2f79bc1fe"
     },
     {
         "id": 8,
@@ -69,7 +69,7 @@
         "model": "DC Camouflage",
         "price": 6200,
         "stock": 20,
-        "img": "gorra-dc-2.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/benihana-skate-store.appspot.com/o/gorra-dc-2.jpg?alt=media&token=185bcda4-2a71-4e30-8d26-0208ccc9adc8"
     },
     {
         "id": 9,
@@ -78,7 +78,7 @@
         "model": "Independent White",
         "price": 9800,
         "stock": 5,
-        "img": "gorra-independent.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/benihana-skate-store.appspot.com/o/gorra-independent.jpg?alt=media&token=db912993-b7e0-4cdc-aa68-7677daf34a59"
     },
     {
         "id": 10,
@@ -87,7 +87,7 @@
         "model": "Quarter Blue",
         "price": 7500,
         "stock": 10,
-        "img": "gorra-volcom.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/benihana-skate-store.appspot.com/o/gorra-volcom.jpg?alt=media&token=e517001f-fcb8-460a-bb66-f27984ba9edf"
     },
     {
         "id": 11,
@@ -96,7 +96,7 @@
         "model": "Court Graffik SS",
         "price": 45000,
         "stock": 22,
-        "img": "zapatillas-dc.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/benihana-skate-store.appspot.com/o/zapatillas-dc.jpg?alt=media&token=530f5671-f986-4491-b100-54966f4822c5"
     },
     {
         "id": 12,
@@ -105,6 +105,6 @@
         "model": "Vans SK8 Hi",
         "price": 45000,
         "stock": 22,
-        "img": "zapatillas-vans.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/benihana-skate-store.appspot.com/o/zapatillas-vans.jpg?alt=media&token=967eb1c3-b4d7-400f-80af-9bb651ee83e7"
     }
 ]
